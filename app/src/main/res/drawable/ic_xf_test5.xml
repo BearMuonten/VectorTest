@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1000dp"
+    android:height="1000dp"
+    android:viewportHeight="600"
+    android:viewportWidth="600">
+
+    <group
+        android:name="tj"
+        android:pivotX="300"
+        android:pivotY="300">
+
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M300 300 m0 -100 a100 100 0 1 1 0 200"
+            android:strokeColor="#FF000000" />
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M300 300 m0 -100 a100 100 0 1 0 0 200"
+            android:strokeColor="#FFFFFFFF" />
+
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M300 300 m0 -100 a50 50 0 1 1 0 100 a50,50 0 1 1 0 -100"
+            android:strokeColor="#FF000000" />
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M300 300 m0 100 a50 50 0 1 1 0 -100 a50,50 0 1 1 0 100"
+            android:strokeColor="#FFFFFFFF" />
+
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M300 300 m0 -60 a10 10 0 1 1 0 20 a10,10 0 1 1 0 -20"
+            android:strokeColor="#FFFFFFFF" />
+
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M300 300 m0 40 a10 10 0 1 1 0 20 a10,10 0 1 1 0 -20"
+            android:strokeColor="#FF000000" />
+
+
+    </group>
+</vector>

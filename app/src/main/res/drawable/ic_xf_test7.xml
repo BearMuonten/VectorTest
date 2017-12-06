@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="500dp"
+    android:viewportHeight="500"
+    android:viewportWidth="500">
+    <group
+        android:pivotX="500"
+        android:pivotY="500">
+        <path
+            android:fillColor="#aaeeaa"
+            android:pathData="M0 450 L500 450 L500 500 L0 500z"
+            android:strokeColor="#aaeeaa" />
+    </group>
+
+    <group
+        android:name="ty"
+        android:pivotX="500"
+        android:pivotY="500">
+        <path
+            android:fillColor="#ff0000"
+            android:pathData="M250 250 m0 -200 a20 20 0 1 1 0 40 a20 20 0 1 1 0 -40"
+            android:strokeColor="#ff0000" />
+
+    </group>
+
+    <group
+        android:pivotX="500"
+        android:pivotY="500">
+        <path
+            android:fillColor="#5593a3"
+            android:pathData="M0 450 c0 0 100 -800 300 0 c0 0 150 -900 200 0"
+            android:strokeColor="#5593a3" />
+
+    </group>
+
+    <group
+        android:name="car"
+        android:pivotX="500"
+        android:pivotY="500">
+        <group
+            android:pivotX="500"
+            android:pivotY="500">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M200 450 a5 5 0 1 1 0 -10 a5 5 0 1 1 0 10 m-5 -5 l-10 0 l0 -10 l15 0 l5 -5 l20 0 l5 5 l15 0 l0 10 m-15 5 a5 5 0 1 1 0 -10 a5 5 0 1 1 0 10"
+                android:strokeColor="#000000" />
+        </group>
+
+        <group
+            android:pivotX="500"
+            android:pivotY="500">
+
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M205 431 l0 3 l4 0 l0 -3 m1 0 l0 3 l8 0 l0 -3 m1 0 l0 3 l5 0 l0 -3"
+                android:strokeColor="#ffffff" />
+
+        </group>
+
+    </group>
+
+</vector>

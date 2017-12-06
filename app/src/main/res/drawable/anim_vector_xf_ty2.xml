@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_xf_test7">
+    <target
+        android:name="ty"
+        android:animation="@animator/anima_test_ty" />
+    <target
+        android:name="car"
+        android:animation="@animator/anima_test_car"/>
+</animated-vector>
